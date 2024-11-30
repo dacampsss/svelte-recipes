@@ -84,7 +84,8 @@
   @use './styles/mob_recipe' as *;
 
   article {
-    width: fit-content;
+    width: 100%;
+    height: 100%;
     background: $white;
     padding: 40px 42px;
     border-radius: 24px;
@@ -99,7 +100,6 @@
   h1 {
     font-size: 2.5rem;
     color: $stone900;
-    line-height: 1;
   }
 
   section:not(.prepSection) {
@@ -142,6 +142,4 @@
   section.nutrition::after {
     display: none;
   }
-
-  @include mediaQueries;
 </style>

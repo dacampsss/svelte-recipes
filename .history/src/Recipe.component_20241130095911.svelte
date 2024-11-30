@@ -84,11 +84,12 @@
   @use './styles/mob_recipe' as *;
 
   article {
-    width: fit-content;
-    background: $white;
+    width: 100%;
+    height: 100%;
+    background: hsl(0, 0%, 100%);
     padding: 40px 42px;
     border-radius: 24px;
-    color: $stone600;
+    color: hsl(30, 10%, 34%);
   }
 
   ul {
@@ -98,13 +99,12 @@
 
   h1 {
     font-size: 2.5rem;
-    color: $stone900;
-    line-height: 1;
+    color: hsl(24, 5%, 18%);
   }
 
   section:not(.prepSection) {
     h2 {
-      color: $brown800;
+      color: hsl(14, 45%, 36%);
       font-size: 1.75rem;
     }
 
@@ -113,14 +113,14 @@
       height: 1px;
       width: 100%;
       display: inline-block;
-      background: $stone150;
+      background: hsl(30, 18%, 87%);
       margin-top: 2rem;
     }
   }
 
   section.prepSection {
     h2 {
-      color: $rose800;
+      color: hsl(332, 51%, 32%);
       font-family: 'Outfit';
       font-weight: 600;
       margin: 0px;
@@ -128,7 +128,7 @@
     }
 
     padding: 30px;
-    background: $rose50;
+    background: hsl(330, 100%, 98%);
     border-radius: 10px;
     margin: 2rem 0px;
   }
@@ -142,6 +142,4 @@
   section.nutrition::after {
     display: none;
   }
-
-  @include mediaQueries;
 </style>

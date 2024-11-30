@@ -79,69 +79,9 @@
   </section>
 </article>
 
-<style lang="scss">
-  @use './styles/_colors' as *;
-  @use './styles/mob_recipe' as *;
-
+<style type="text/scss">
   article {
-    width: fit-content;
-    background: $white;
-    padding: 40px 42px;
-    border-radius: 24px;
-    color: $stone600;
-  }
-
-  ul {
-    line-height: 2rem;
-    margin-bottom: 0px;
-  }
-
-  h1 {
-    font-size: 2.5rem;
-    color: $stone900;
-    line-height: 1;
-  }
-
-  section:not(.prepSection) {
-    h2 {
-      color: $brown800;
-      font-size: 1.75rem;
-    }
-
-    &::after {
-      content: '';
-      height: 1px;
-      width: 100%;
-      display: inline-block;
-      background: $stone150;
-      margin-top: 2rem;
-    }
-  }
-
-  section.prepSection {
-    h2 {
-      color: $rose800;
-      font-family: 'Outfit';
-      font-weight: 600;
-      margin: 0px;
-      font-size: 1.25rem;
-    }
-
-    padding: 30px;
-    background: $rose50;
-    border-radius: 10px;
-    margin: 2rem 0px;
-  }
-
-  header img {
     width: 100%;
-    height: auto;
-    border-radius: 12px;
+    height: 100%;
   }
-
-  section.nutrition::after {
-    display: none;
-  }
-
-  @include mediaQueries;
 </style>

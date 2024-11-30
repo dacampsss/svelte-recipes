@@ -1,0 +1,25 @@
+@mixin mediaQueries {
+  @media screen and (max-aspect-ratio: 0.75) {
+    article {
+      padding: 0px;
+      border-radius: 0px;
+
+      &>*:not(header) {
+        margin: 0px 34px;
+      }
+    }
+
+    header > *:not(img) {
+      margin-left: 34px;
+      margin-right: 34px;
+    }
+
+    header img {
+      border-radius: 0px;
+    }
+
+    section.prepSection {
+      margin: 2rem 34px;
+    }
+  }
+}

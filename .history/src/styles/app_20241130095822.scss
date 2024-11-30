@@ -17,9 +17,8 @@ body {
     }
 }
 
-@media screen and (max-aspect-ratio: 0.75) {
+@media screen and (max-aspect-ratio: 0.7) {
     body {
         margin: 0;
-        background: $white;
     }
 }

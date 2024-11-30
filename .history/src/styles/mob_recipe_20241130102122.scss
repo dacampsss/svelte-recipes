@@ -1,0 +1,15 @@
+
+@media screen and (max-aspect-ratio: 0.7) {
+  article {
+    padding: 0px;
+    border-radius: 0px;
+
+    &> *:not(header) {
+      //margin: 0px 34px;
+    }
+  }
+
+  section.prepSection {
+    margin: 2rem 34px;
+  }
+}

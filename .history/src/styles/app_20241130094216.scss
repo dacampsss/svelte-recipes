@@ -1,0 +1,12 @@
+@use './_colors' as *;
+
+body {
+    background-color: $stone100;
+    margin: 13.8vh 24vw;
+}
+
+@media screen and (max-width: 1280px) {
+    body {
+        margin: 13.8vh 20vw;
+    }
+}

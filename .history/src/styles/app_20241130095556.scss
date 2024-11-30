@@ -16,10 +16,3 @@ body {
         margin: 11vw;
     }
 }
-
-@media screen and (max-aspect-ratio: 0.75) {
-    body {
-        margin: 0;
-        background: $white;
-    }
-}

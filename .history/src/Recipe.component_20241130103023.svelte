@@ -84,7 +84,8 @@
   @use './styles/mob_recipe' as *;
 
   article {
-    width: fit-content;
+    width: 100%;
+    height: 100%;
     background: $white;
     padding: 40px 42px;
     border-radius: 24px;
