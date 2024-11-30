@@ -102,6 +102,12 @@
     line-height: 1;
   }
 
+  header img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+
   section:not(.prepSection) {
     h2 {
       color: $brown800;
@@ -133,14 +139,39 @@
     margin: 2rem 0px;
   }
 
-  header img {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-  }
+  section.nutrition {
+    &::after {
+      display: none;
+    }
 
-  section.nutrition::after {
-    display: none;
+    table {
+      width: 100%;
+
+      tr {
+        height: 3rem;
+        position: relative;
+
+        &:not(:last-of-type)::after {
+          content: '';
+          display: inline-block;
+          position: absolute;
+          width: 100%;
+          height: 1px;
+          left: 0px;
+          bottom: 0px;
+          background: hsl(30, 18%, 87%);
+        }
+      }
+
+      td:first-of-type {
+        transform: translateX(2rem);
+      }
+
+      td:not(:first-of-type) {
+        font-weight: 700;
+        color: hsl(14, 45%, 36%);
+      }
+    }
   }
 
   @include mediaQueries;
