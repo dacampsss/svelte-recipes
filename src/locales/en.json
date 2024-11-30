@@ -1,0 +1,14 @@
+{
+    "firstString": "Hello, world!",
+    "imgAltPrefix": "Photo of a(n) ",
+    "preparation": {
+        "label": "Preparation time",
+        "total": "Total",
+        "preparation": "Preparation",
+        "cooking": "Cooking"
+    },
+    "ingredients": "Ingredients",
+    "instructions": "Instructions",
+    "nutrition": "Nutrition",
+    "nutritionDesc": "The table below shows nutritional values per serving without the additional fillings."
+}

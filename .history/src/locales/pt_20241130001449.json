@@ -1,0 +1,14 @@
+{
+    "firstString": "Olá, mundo!",
+    "imgAltPrefix": "Imagem de um(a) ",
+    "preparation": {
+        "label": "Tempo de preparação",
+        "total": "Total",
+        "preparation": "Preparação",
+        "cooking": "Cozimento"
+    },
+    "ingredients": "Ingredientes",
+    "instructions": "Instruções",
+    "nutrition": "Nutrição",
+    "nutritionDesc": "A tabela abaixo apresenta valores nutricionais por porção sem considerar complementos."
+}
