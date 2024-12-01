@@ -10,5 +10,13 @@
     "ingredients": "Ingredients",
     "instructions": "Instructions",
     "nutrition": "Nutrition",
-    "nutritionDesc": "The table below shows nutritional values per serving without the additional fillings."
+    "nutritionDesc": "The table below shows nutritional values per serving without the additional fillings.",
+    "index": {
+        "welcome": "Welcome to Svelte Recipes!",
+        "description": "With this little app, you can generate a beautiful and printable card for your favorite recipe, and then even share with your friends if you want to.",
+        "btn1": "Create my recipe",
+        "btn2": "Recipe example",
+        "btn3": "Source code",
+        "footer1": "This project was inspired by this Frontend Mentor challenge."
+    }
 }

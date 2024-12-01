@@ -1,5 +1,11 @@
+@use '_colors' as *;
+
 @mixin mediaQueries {
   @media screen and (max-aspect-ratio: 0.75) {
+    body {
+      background: $white;
+    }
+
     article {
       padding: 0px;
       border-radius: 0px;

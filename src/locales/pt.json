@@ -10,5 +10,13 @@
     "ingredients": "Ingredientes",
     "instructions": "Instruções",
     "nutrition": "Nutrição",
-    "nutritionDesc": "A tabela abaixo apresenta valores nutricionais por porção sem considerar complementos."
+    "nutritionDesc": "A tabela abaixo apresenta valores nutricionais por porção sem considerar complementos.",
+    "index": {
+        "welcome": "Bem-vindo ao Svelte Recipes!",
+        "description": "Com esse pequeno app, você pode gerar um belo e imprimível cartão para sua receita favorita, e até mesmo compartilhá-lo com seus amigos se quiser.",
+        "btn1": "Criar minha receita",
+        "btn2": "Exemplo de receita",
+        "btn3": "Código-fonte",
+        "footer1": "Esse projeto foi inspirado por esse desafio do Frontend Mentor."
+    }
 }
