@@ -36,9 +36,12 @@
     ],
     nutrition: omeletteNutrition,
   };
+
+  document.getElementsByTagName('body')[0].className = '';
 </script>
 
 <Recipe {...props} />
 
 <style lang="scss">
+
 </style>

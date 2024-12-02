@@ -18,5 +18,17 @@
         "btn2": "Recipe example",
         "btn3": "Source code",
         "footer1": "This project was inspired by this Frontend Mentor challenge."
+    },
+    "create": {
+        "title": "Creating your recipe card",
+        "tagline": "Using this page, you'll be able to create your own Recipe card page, and then save, print it or share with your friends.",
+        "form": {
+            "name": "Name",
+            "description": "A brief description",
+            "prepTime": "Preparation time",
+            "prepTotal": "Total",
+            "prepPreparation": "Preparation",
+            "prepCooking": "Cooking"
+        }
     }
 }

@@ -83,23 +83,9 @@
   @use './styles/_colors' as *;
   @use './styles/mob_recipe' as *;
 
-  article {
-    width: fit-content;
-    background: $white;
-    padding: 40px 42px;
-    border-radius: 24px;
-    color: $stone600;
-  }
-
   ul {
     line-height: 2rem;
     margin-bottom: 0px;
-  }
-
-  h1 {
-    font-size: 2.5rem;
-    color: $stone900;
-    line-height: 1;
   }
 
   header img {
